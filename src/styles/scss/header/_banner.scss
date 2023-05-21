@@ -1,0 +1,19 @@
+.banner {
+    background: #fff url("../../../img/banner/banner-bg.svg") no-repeat center /
+        cover;
+    padding: 64px 185px 64px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    &__title {
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        color: #414141;
+    }
+    &__img {
+        margin-right: 18px;
+    }
+}

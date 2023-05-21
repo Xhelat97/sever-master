@@ -1,0 +1,35 @@
+.logo{
+    display: flex;
+    align-items:center;
+    &__image{
+        &_picture{
+            margin-right: 14px;
+        }
+    }
+}
+
+@media (max-width: 1160px) {
+    .logo {
+       &__image {
+        &_text {
+            display: none;
+        }
+        &_picture {
+            margin-right: 0;
+        }
+       }
+    }
+}
+// @media (max-width: 768px){
+//     .logo__image_picture{
+//         margin-right: 20px;
+//     }
+//     .header__logo{
+//         margin-right: 0;
+//     }
+// }
+// @media (max-width: 360px){
+//     .logo__image_picture{
+//         margin-right: 24px;
+//     }
+// }

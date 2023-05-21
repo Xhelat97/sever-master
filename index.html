@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/styles/css/style.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav">
+          <div class="header__logo logo">
+            <img
+              src="./src/img/icons/logo.svg"
+              alt=""
+              class="logo__image_picture"
+            />
+            <img
+              src="./src/img/icons/logo_text.svg"
+              alt=""
+              class="logo__image_text"
+            />
+          </div>
+          <button class="header__catalog header-btn btn">
+            <div class="header-btn__lines">
+              <div class="header-btn__line"></div>
+              <div class="header-btn__line"></div>
+              <div class="header-btn__line"></div>
+            </div>
+            <span class="header-btn__text">Каталог</span>
+          </button>
+          <label class="header__search search">
+            <input
+              type="text"
+              placeholder="Найти товар"
+              class="search__input"
+              maxlength="68"
+            />
+            <img src="./src/img/icons/search.svg" alt="" class="search__icon" />
+          </label>
+          <div class="header__pages pages">
+            <a href="" class="pages__link pages-link">
+              <img
+                src="./src/img/icons/fav.svg"
+                alt=""
+                class="pages-link__icon link__icon_fav"
+              />
+              <span class="link__text">Избранное</span>
+            </a>
+            <a href="" class="pages__link pages-link">
+              <img
+                src="./src/img/icons/orders.svg"
+                alt=""
+                class="pages-link__icon link__icon_orders"
+              />
+              <span class="pages-link__text">Заказы</span>
+            </a>
+            <a href="" class="pages__link pages-link">
+              <img
+                src="./src/img/icons/crate.svg"
+                alt=""
+                class="pages-link__icon link__icon_crate"
+              />
+              <span class="pages-link__text">Корзина</span>
+            </a>
+          </div>
+          <a href="#" class="header__user user">
+            <img
+              srcset="
+                ./src/img/users/avatar.webp    1x,
+                ./src/img/users/avatar_2x.webp 2x
+              "
+              alt=""
+              class="user__avatar"
+            />
+            <span class="user__name">Алексей</span>
+            <button class="user__menu">
+              <img src="./src/img/users/arrow.svg" alt="" class="menu-button" />
+            </button>
+          </a>
+        </nav>
+        <nav class="header-bottom">
+          <button class="header-bottom__btn header-bottom-btn btn">
+            <div class="header-bottom-btn__lines header-btn__lines">
+              <div class="header-bottom-btn__line header-btn__line header-btn__line_black "></div>
+              <div class="header-bottom-btn__line header-btn__line header-btn__line_black"></div>
+              <div class="header-bottom-btn__line header-btn__line header-btn__line_black"></div>
+            </div>
+            <span class="header-btn__text_bottom">Каталог</span>
+          </button>
+          <a class="header-bottom__pages pages-link">
+            <img src="./src/img/icons/fav.svg" alt="" class="pages-link__icon_bottom">
+            <span class="pages-link__text_bottom">Избранное</span>
+          </a>
+          <a class="header-bottom__pages pages-link">
+            <img src="./src/img/icons/orders.svg" alt="" class="pages-link__icon_bottom">
+            <span class="pages-link__text_bottom">Заказы</span>
+          </a>
+          <a class="header-bottom__pages pages-link">
+            <img src="./src/img/icons/crate.svg" alt="" class="pages-link__icon_bottom">
+            <span class="pages-link__text_bottom">Корзина</span>
+          </a>
+          <a href="#" class="header-bottom__user">
+            <img src="./src/img/users/avatar.webp" alt="" class="user__avatar">
+          </a>
+        </nav>
+      </div>
+      
+    </header>
+    <!-- <main class="main">
+      <section class="banner">
+        <img src="./src/img/banner/food.png" alt="food" class="banner__img" />
+        <h1 class="banner__title">Доставка бесплатно от 1000 ₽</h1>
+      </section>
+    </main> -->
+  </body>
+</html>

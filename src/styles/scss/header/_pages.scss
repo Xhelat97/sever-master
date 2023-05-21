@@ -1,0 +1,17 @@
+.pages{
+    display: flex;
+    gap:0 25px;
+}
+
+@media (max-width: 760px) {
+    .pages {
+        display: none;
+    }
+}
+
+
+// @media (max-width: 360px){
+//     .header__pages{
+//         display: none;
+//     }
+// }
